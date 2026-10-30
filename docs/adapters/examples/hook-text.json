@@ -1,0 +1,29 @@
+{
+  "format": "screen-translator.hook-catalog",
+  "formatVersion": 2,
+  "entries": [
+    {
+      "id": "example-text",
+      "displayName": "Example Text Callback",
+      "packageName": "org.example.player",
+      "description": "Template: replace class/method/package with the real subtitle callback.",
+      "adapterId": "example-text-v1",
+      "adapterVersion": 1,
+      "apiVersion": 102,
+      "hookPoints": [
+        {
+          "className": "org.example.player.CaptionRenderer",
+          "methodName": "onSubtitle",
+          "strategy": "after",
+          "runtime": {
+            "parameterTypes": ["java.lang.String"],
+            "source": "argument",
+            "argumentIndex": 0,
+            "fieldPath": [],
+            "clearOnNull": true
+          }
+        }
+      ]
+    }
+  ]
+}

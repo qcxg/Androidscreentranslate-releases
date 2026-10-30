@@ -1,0 +1,19 @@
+{
+  "format": "screen-translator.accessibility-adapters",
+  "formatVersion": 1,
+  "entries": [
+    {
+      "id": "example-player",
+      "displayName": "Example Accessible Player",
+      "packageName": "org.example.player",
+      "description": "Template: replace the package and subtitle resource ID.",
+      "selectors": [
+        { "viewId": "org.example.player:id/subtitle", "className": "android.widget.TextView" }
+      ],
+      "textSource": "text",
+      "includeDescendants": true,
+      "stabilityMs": 280,
+      "clearDelayMs": 900
+    }
+  ]
+}

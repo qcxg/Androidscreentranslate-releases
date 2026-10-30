@@ -1,0 +1,29 @@
+{
+  "format": "screen-translator.hook-catalog",
+  "formatVersion": 2,
+  "entries": [
+    {
+      "id": "example-media3",
+      "displayName": "Example Media3 Player",
+      "packageName": "org.example.player",
+      "description": "Template: replace the package name with your player package.",
+      "adapterId": "example-media3-v1",
+      "adapterVersion": 1,
+      "apiVersion": 102,
+      "hookPoints": [
+        {
+          "className": "androidx.media3.ui.SubtitleView",
+          "methodName": "setCues",
+          "strategy": "after",
+          "runtime": {
+            "parameterTypes": ["java.util.List"],
+            "source": "argument",
+            "argumentIndex": 0,
+            "fieldPath": ["text"],
+            "clearOnNull": true
+          }
+        }
+      ]
+    }
+  ]
+}
