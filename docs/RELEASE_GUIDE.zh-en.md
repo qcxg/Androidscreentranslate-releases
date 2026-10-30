@@ -18,21 +18,15 @@ This guide covers 1.0.6 and is for users and adapter authors. Third-party runtim
 - [APK SHA-256 校驗檔 / APK SHA-256 checksums](https://github.com/qcxg/Androidscreentranslate-releases/releases/latest/download/SHA256SUMS.txt)
 - [完整適配規格 / Full adapter specification](https://github.com/qcxg/Androidscreentranslate-releases/releases/latest/download/Adapter-Spec.zh-en.md)
 - [適配範例壓縮檔 / Adapter example files](https://github.com/qcxg/Androidscreentranslate-releases/releases/latest/download/adapter-examples.zip)
-- [技術文件壓縮檔 / Technical documentation bundle](https://github.com/qcxg/Androidscreentranslate-releases/releases/latest/download/technical-docs.zip)
 - [官方網站 / Website](https://shiraka.icu)
 
 公開倉庫只放發佈產物與說明。私人源碼倉庫不作為 App 更新檢查或一般下載的來源。
 
 The public repository contains release artifacts and documentation. Update checks and user downloads use this public release repository.
 
-### 技術文件 / Technical documentation
+### 適配文件 / Adapter documentation
 
-- [架構與資料流 / Architecture and data flow](https://github.com/qcxg/Androidscreentranslate-releases/blob/main/docs/architecture.md)
 - [第三方適配規格與範例 / Adapter specification and templates](https://github.com/qcxg/Androidscreentranslate-releases/blob/main/docs/adapters/README.md)
-- [Hook 模組 / Hook module](https://github.com/qcxg/Androidscreentranslate-releases/blob/main/hook/README.md)
-- [權限與安全邊界 / Permissions and trust boundaries](https://github.com/qcxg/Androidscreentranslate-releases/blob/main/docs/security.md)
-- [備份格式 / Backup format](https://github.com/qcxg/Androidscreentranslate-releases/blob/main/docs/backup-format.md)
-- [開發、驗證與發佈 / Development, verification, and release](https://github.com/qcxg/Androidscreentranslate-releases/blob/main/docs/development.md)
 
 ## 1. 主要功能 / Main features
 
@@ -235,9 +229,9 @@ Accessibility processes enabled packages only during a subtitle session. Hook ev
 
 ## 10. 發佈檔案與相容界線 / Release files and compatibility
 
-正式發佈提供主程式、選用 Hook 模組、APK 校驗檔、本指南、完整適配規格、範例壓縮檔及技術文件壓縮檔。公開倉庫首頁與 docs 目錄會同步更新。請先閱讀該版本的變更說明；一般適配與 App／框架更新的相容性需由實際測試確認。範例檔用於示範格式，沒有聲稱適配所有播放器。
+正式發佈提供主程式、選用 Hook 模組、APK 校驗檔、本指南、完整適配規格及範例壓縮檔。公開倉庫同步更新使用指南、適配文件與版本說明。請先閱讀該版本的變更說明；一般適配與 App／框架更新的相容性需由實際測試確認。範例檔用於示範格式，沒有聲稱適配所有播放器。
 
-Releases include the main app, optional Hook module, APK checksums, this guide, the adapter specification, example files, and a technical documentation bundle. The public repository homepage and docs directory are updated as well. Read each release's changes. Compatibility with a particular app/framework update requires testing; templates illustrate the format and do not claim support for every player.
+Releases include the main app, optional Hook module, APK checksums, this guide, the adapter specification, and example files. The public repository is updated with user guides, adapter documentation, and release notes. Read each release's changes. Compatibility with a particular app/framework update requires testing; templates illustrate the format and do not claim support for every player.
 
 若回報問題，請提供重現步驟與版本組合。診斷資料應遮蔽私人字幕、API Key 與其他個人資訊。適配格式的欄位、限制與向後相容規則詳見隨發佈附帶的 Adapter-Spec.zh-en.md。
 
