@@ -6,9 +6,9 @@ Screen Translator 是 Android 即時螢幕翻譯工具。它從本機 OCR、Andr
 
 Screen Translator is an Android tool for translating text while using other apps. It obtains text through on-device OCR, Android accessibility nodes, or LSPosed hooks, translates it with services chosen by the user, and displays a subtitle overlay. The main app works on its own; Hook subtitles additionally require the matching module and a compatible framework.
 
-本指南對應 1.0.6，同時供使用者與適配作者閱讀。第三方規則接口自 1.0.6 起支援；1.0.5 及之前的 Hook 匯入目錄只記錄描述。請成對更新主程式與 Hook。
+本指南對應 1.0.7，同時供使用者與適配作者閱讀。第三方規則接口自 1.0.6 起支援；1.0.5 及之前的 Hook 匯入目錄只記錄描述。請成對更新主程式與 Hook。
 
-This guide covers 1.0.6 and is for users and adapter authors. Third-party runtime rules are supported starting with 1.0.6; Hook catalogs in 1.0.5 and earlier only stored descriptions. Update the main app and Hook module together.
+This guide covers 1.0.7 and is for users and adapter authors. Third-party runtime rules are supported starting with 1.0.6; Hook catalogs in 1.0.5 and earlier only stored descriptions. Update the main app and Hook module together.
 
 ### 官方入口 / Official links
 
